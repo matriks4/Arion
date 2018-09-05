@@ -1,0 +1,127 @@
+//===== Hercules Script ======================================
+//= Shops
+//===== Current Version: =====================================
+//= 3.5
+//===== Description: =========================================
+//= Town shop NPCs.
+//===== Additional Comments: =================================
+// Written by Tokeiburu
+//============================================================
+
+-	trader	Arion Trader	-1,{
+OnInit:
+	sellitem Blue_Potion,-1;
+	sellitem White_Potion,-1;
+	sellitem Yellow_Potion,-1;
+	sellitem Orange_Potion,-1;
+	sellitem 501,-1;
+	sellitem Green_Potion,-1;
+	sellitem Berserk_Potion,-1;
+	sellitem Awakening_Potion,-1;
+	sellitem Center_Potion,-1;
+	sellitem Leaf_Of_Yggdrasil,-1;
+	sellitem Wing_Of_Butterfly,-1;
+	sellitem Wing_Of_Fly,-1;
+	sellitem Spectacles,-1;
+	sellitem Booby_Trap,-1;
+	sellitem Fire_Arrow,-1;
+	sellitem Holy_Arrow,-1;
+	sellitem Arrow_Of_Wind,-1;
+	sellitem 1771,-1;
+	sellitem Blue_Gemstone,-1;
+	sellitem Red_Gemstone,-1;
+	sellitem Yellow_Gemstone,-1;
+}
+
+prt_in,126,76,6	duplicate(Arion Trader)	Arion Trader#inprt1	4_F_GELKA
+
+prontera,128,214,5	trader	Alchemist Shop#prt1	4_GEFFEN_09,{
+OnInit:
+    sellitem Slim_Potion_Create_Book,-1;
+	sellitem Alcol_Create_Book,-1;
+	sellitem FireBottle_Create_Book,-1;
+	sellitem Acid_Create_Book,-1;
+	sellitem Plant_Create_Book,-1;
+	sellitem Mine_Create_Book,-1;
+	sellitem Coating_Create_Book,-1;
+	sellitem Slim_Potion_Create_Book,-1;
+	sellitem Normal_Potion_Book,-1;
+	sellitem Seed_Of_Life,-1;
+	sellitem Yggdrasilberry_Dew,-1;
+	sellitem Life_Force_Pot,-1;
+	sellitem Empty_Potion,-1;
+	sellitem Medicine_Bowl,-1;
+	sellitem Empty_Bottle,-1;
+	sellitem Empty_Cylinder,-1;
+	
+	
+
+	
+}
+
+prontera,130,216,5	trader	Blacksmith Shop#prt1	4_GEFFEN_13,{
+OnInit:
+    sellitem Golden_Anvil,-1;
+	sellitem Oridecon_Anvil,-1;
+	sellitem 986,-1;
+	sellitem Oridecon_Hammer,-1;
+	sellitem Golden_Hammer,-1;
+	sellitem Iron_Hammer,-1;
+	sellitem Portable_Furnace,-1;
+	sellitem Hammer_Of_Blacksmith,-1;
+	
+	
+}
+
+prt_in,172,130,6	trader	Ninja Shop#prt1	4_M_NINJA_BLUE,{
+OnInit:
+    sellitem Improved_Arm_Guard_,-1;
+	sellitem Shadow_Orb,-1;
+	sellitem Flame_Stone,-1;
+	sellitem Ice_Stone,-1;
+	sellitem Wind_Stone,-1;
+	sellitem Thorn_Needle_Shuriken,-1;
+	sellitem Flash_Shuriken,-1;
+	sellitem Nimbus_Shuriken,-1;
+	sellitem Sharp_Leaf_Shuriken,-1;
+	sellitem 13250,-1;
+	
+}
+
+prt_in,172,132,5	trader	Gunslinger Shop#prt1	4_M_GUNSLINGER,{
+OnInit:
+    sellitem 13168,-1;
+	sellitem 13165,-1;
+	sellitem 13163,-1;
+	sellitem 13155,-1;
+	sellitem 13102,-1;
+	sellitem 13151,-1;
+	sellitem 13154,-1;
+	sellitem Shell_Of_Blood,-1;
+	sellitem Silver_Bullet,-1;
+	sellitem 13200,-1;
+}
+
+prontera,186,220,4	trader	SuperNovice Shop#prt1	4_F_NOVICE,{
+OnInit:
+    sellitem Novice_Breast,-1;
+	sellitem Novice_Manteau,-1;
+	sellitem Novice_Shoes,-1;
+	sellitem Super_Novice_Hat_,-1;
+    sellitem Novice_Shield,-1;
+	//sellitem 20507,-1;
+	sellitem 1621,-1;
+	sellitem 1148,-1;
+		
+}
+
+prontera,104,192,5	trader	Fruit Shop#prt1	4_F_FRUIT,{
+OnInit:
+	sellitem Grape,-1;
+    sellitem Apple,-1;
+	sellitem Banana,-1;
+	sellitem Carrot,-1;
+	sellitem Sweet_Potato,-1;
+	
+	
+}
