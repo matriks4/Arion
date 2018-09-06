@@ -1,0 +1,202 @@
+//===== Hercules Script ======================================
+//= Town duplicate NPCs
+//===== By: ==================================================
+//= Tokeiburu
+//===== Current Version: =====================================
+//= 1.0
+//===== Description: =========================================
+//= 
+//===== Additional Comments: =================================
+//= 
+//============================================================
+
+
+//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//	Arion Trader
+//  - File defined in npc/custom/shops.txt
+//________________________________________________________
+prontera,152,193,6	duplicate(Arion Trader)	Arion Trader#prt	4_F_GELKA
+alberta,128,60,4	duplicate(Arion Trader)	Arion Trader#alb	4_F_GELKA
+aldebaran,152,111,6	duplicate(Arion Trader)	Arion Trader#alde	4_F_GELKA
+amatsu,220,236,4	duplicate(Arion Trader)	Arion Trader#ama	4_F_GELKA
+ayothaya,198,265,6	duplicate(Arion Trader)	Arion Trader#ayo	4_F_GELKA
+brasilis,199,222,4	duplicate(Arion Trader)	Arion Trader#bra	4_F_GELKA
+comodo,182,154,6	duplicate(Arion Trader)	Arion Trader#com	4_F_GELKA
+dewata,197,192,4	duplicate(Arion Trader)	Arion Trader#dew	4_F_GELKA
+ecl_in01,42,60,4	duplicate(Arion Trader)	Arion Trader#ecl	4_F_GELKA
+izlude,132,126,4	duplicate(Arion Trader)	Arion Trader#izl	4_F_GELKA
+
+
+//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//	Repairman
+//________________________________________________________
+-	script	Repairman_Dup	-1,{
+	callfunc "repairmain","Repairman";
+	end;
+}
+
+prontera,179,218,4	duplicate(Repairman_Dup)	Repairman#2prt	4_M_04
+alberta,102,75,4	duplicate(Repairman_Dup)	Repairman#2alb	4_M_04
+aldebaran,157,116,6	duplicate(Repairman_Dup)	Repairman#2alde	4_M_04
+amatsu,248,217,2	duplicate(Repairman_Dup)	Repairman#2ama	4_M_04
+ayothaya,238,264,6	duplicate(Repairman_Dup)	Repairman#2ayo	4_M_04
+brasilis,202,184,4	duplicate(Repairman_Dup)	Repairman#2bra	4_M_04
+comodo,166,166,6	duplicate(Repairman_Dup)	Repairman#2com	4_M_04
+dewata,223,188,4	duplicate(Repairman_Dup)	Repairman#2dew	4_M_04
+ecl_in01,75,43,4	duplicate(Repairman_Dup)	Repairman#2ecl	4_M_04
+izlude,75,43,0	duplicate(Repairman_Dup)	Repairman#2izl	4_M_04
+
+
+//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//	Warp Girl
+//________________________________________________________
+alb2trea,57,70,6	duplicate(Warp Girl)	Warp Girl#tre	4_F_FAIRY
+alberta,120,60,4	duplicate(Warp Girl)	Warp Girl#alb	4_F_FAIRY
+aldebaran,145,118,4	duplicate(Warp Girl)	Warp Girl#alde	4_F_FAIRY
+amatsu,227,236,4	duplicate(Warp Girl)	Warp Girl#ama	4_F_FAIRY
+ayothaya,215,265,4	duplicate(Warp Girl)	Warp Girl#ayo	4_F_FAIRY
+comodo,194,158,4	duplicate(Warp Girl)	Warp Girl#com	4_F_FAIRY
+einbech,59,38,6	duplicate(Warp Girl)	Warp Girl#einbe	4_F_FAIRY
+einbroch,69,202,4	duplicate(Warp Girl)	Warp Girl#einbr	4_F_FAIRY
+gef_fild10,71,339,4	duplicate(Warp Girl)	Warp Girl#orc	4_F_FAIRY
+geffen,124,72,4	duplicate(Warp Girl)	Warp Girl#gef	4_F_FAIRY
+glast_01,372,308,4	duplicate(Warp Girl)	Warp Girl#glh	4_F_FAIRY
+gonryun,162,122,4	duplicate(Warp Girl)	Warp Girl#gon	4_F_FAIRY
+hugel,101,151,4	duplicate(Warp Girl)	Warp Girl#hug	4_F_FAIRY
+izlu2dun,110,92,4	duplicate(Warp Girl)	Warp Girl#izd	4_F_FAIRY
+izlude,132,120,4	duplicate(Warp Girl)	Warp Girl#izl	4_F_FAIRY
+jawaii,253,138,4	duplicate(Warp Girl)	Warp Girl#jaw	4_F_FAIRY
+lighthalzen,162,102,4	duplicate(Warp Girl)	Warp Girl#lhz	4_F_FAIRY
+louyang,208,103,6	duplicate(Warp Girl)	Warp Girl#lou	4_F_FAIRY
+manuk,274,146,6	duplicate(Warp Girl)	Warp Girl#man	4_F_FAIRY
+mid_camp,216,288,4	duplicate(Warp Girl)	Warp Girl#mid	4_F_FAIRY
+mjolnir_02,85,364,4	duplicate(Warp Girl)	Warp Girl#mjo	4_F_FAIRY
+moc_ruins,64,164,4	duplicate(Warp Girl)	Warp Girl#moc	4_F_FAIRY
+morocc,159,97,4	duplicate(Warp Girl)	Warp Girl#mor	4_F_FAIRY
+moscovia,229,191,4	duplicate(Warp Girl)	Warp Girl#mos	4_F_FAIRY
+nameless_n,259,213,4	duplicate(Warp Girl)	Warp Girl#nam	4_F_FAIRY
+niflheim,205,179,4	duplicate(Warp Girl)	Warp Girl#nif	4_F_FAIRY
+pay_arche,42,134,4	duplicate(Warp Girl)	Warp Girl#arc	4_F_FAIRY
+payon,182,108,4	duplicate(Warp Girl)	Warp Girl#pay	4_F_FAIRY
+prontera,161,207,3	duplicate(Warp Girl)	Warp Girl#prt	4_F_FAIRY
+prt_fild05,279,223,6	duplicate(Warp Girl)	Warp Girl#cul	4_F_FAIRY
+rachel,135,116,4	duplicate(Warp Girl)	Warp Girl#rac	4_F_FAIRY
+splendide,205,153,4	duplicate(Warp Girl)	Warp Girl#spl	4_F_FAIRY
+thor_camp,249,76,4	duplicate(Warp Girl)	Warp Girl#thor	4_F_FAIRY
+umbala,106,150,3	duplicate(Warp Girl)	Warp Girl#umb	4_F_FAIRY
+veins,214,123,4	duplicate(Warp Girl)	Warp Girl#ve	4_F_FAIRY
+xmas,150,136,6	duplicate(Warp Girl)	Warp Girl#xmas	4_F_FAIRY
+yuno,162,47,4	duplicate(Warp Girl)	Warp Girl#yuno	4_F_FAIRY
+cmd_fild08,324,357,4	duplicate(Warp Girl)	Warp Girl#anthell	4_F_FAIRY
+ayo_fild02,275,154,4	duplicate(Warp Girl)	Warp Girl#ayofield	4_F_FAIRY
+//ayo_dun02,154,246,4	duplicate(Warp Girl)	Warp Girl#ayodun	4_F_FAIRY
+glast_01,195,289,6	duplicate(Warp Girl)	Warp Girl#glstHeim	4_F_FAIRY
+hu_fild01,135,158,6	duplicate(Warp Girl)	Warp Girl#than2	4_F_FAIRY
+moc_fild19,109,101,6	duplicate(Warp Girl)	Warp Girl#than	4_F_FAIRY
+xmas,140,311,6	duplicate(Warp Girl)	Warp Girl#xmas2	4_F_FAIRY
+ve_fild03,162,238,6	duplicate(Warp Girl)	Warp Girl#thor2	4_F_FAIRY
+prt_fild01,132,364,6	duplicate(Warp Girl)	Warp Girl#prtmaze	4_F_FAIRY
+alb2trea,87,68,6	duplicate(Warp Girl)	Warp Girl#alb2	4_F_FAIRY
+ra_fild01,243,327,4	duplicate(Warp Girl)	Warp Girl#ra_fi	4_F_FAIRY
+yuno_fild07,212,179,4	duplicate(Warp Girl)	Warp Girl#yuno2	4_F_FAIRY
+gef_dun00,110,100,4	duplicate(Warp Girl)	Warp Girl#gef_du	4_F_FAIRY
+gonryun,166,193,4	duplicate(Warp Girl)	Warp Girl#gonr	4_F_FAIRY
+yuno_fild08,79,179,4	duplicate(Warp Girl)	Warp Girl#kiel_d	4_F_FAIRY
+lou_dun01,218,199,4	duplicate(Warp Girl)	Warp Girl#lou_d	4_F_FAIRY
+yuno_fild03,40,143,4	duplicate(Warp Girl)	Warp Girl#yuno_f3	4_F_FAIRY
+mosk_fild02,200,252,4	duplicate(Warp Girl)	Warp Girl#mosk_f2	4_F_FAIRY
+hugel,172,114,6	duplicate(Warp Girl)	Warp Girl#hug_	4_F_FAIRY
+tur_dun01,155,55,4	duplicate(Warp Girl)	Warp Girl#tur_	4_F_FAIRY
+umbala,114,286,4	duplicate(Warp Girl)	Warp Girl#um_	4_F_FAIRY
+einbech,132,250,6	duplicate(Warp Girl)	Warp Girl#ein_	4_F_FAIRY
+gefenia01,57,172,6	duplicate(Warp Girl)	Warp Girl#gef_	4_F_FAIRY
+//-- Renewal
+brasilis,193,221,4	duplicate(Warp Girl)	Warp Girl#bra	4_F_FAIRY
+dewata,193,192,4	duplicate(Warp Girl)	Warp Girl#dew	4_F_FAIRY
+dicastes01,194,194,6	duplicate(Warp Girl)	Warp Girl#dic	4_F_FAIRY
+ecl_in01,51,60,4	duplicate(Warp Girl)	Warp Girl#ecl	4_F_FAIRY
+malangdo,134,117,6	duplicate(Warp Girl)	Warp Girl#mal	4_F_FAIRY
+malaya,210,205,4	duplicate(Warp Girl)	Warp Girl#ma	4_F_FAIRY
+mora,57,152,4	duplicate(Warp Girl)	Warp Girl#mora	4_F_FAIRY
+
+
+//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//	Mailboxes
+//________________________________________________________
+prontera,146,86,0	duplicate(MailBox)	Mailbox#prt	2_POSTBOX
+prontera,275,213,0	duplicate(MailBox)	Mailbox#2prt	2_POSTBOX
+prontera,34,212,0	duplicate(MailBox)	Mailbox#3prt	2_POSTBOX
+brasilis,190,224,0	duplicate(MailBox)	Mailbox#bra	2_POSTBOX
+izlude,136,94,0	duplicate(MailBox)	Mailbox#iz	2_POSTBOX
+moc_ruins,72,166,0	duplicate(MailBox)	Mailbox#1moc	2_POSTBOX
+moc_ruins,156,52,0	duplicate(MailBox)	Mailbox#2moc	2_POSTBOX
+geffen,115,67,0	duplicate(MailBox)	Mailbox#gef	2_POSTBOX
+geffen,199,125,0	duplicate(MailBox)	Mailbox#2gef	2_POSTBOX
+payon,191,104,0	duplicate(MailBox)	Mailbox#pay	2_POSTBOX
+payon,171,226,0	duplicate(MailBox)	Mailbox#2pay	2_POSTBOX
+pay_arche,55,127,0	duplicate(MailBox)	Mailbox#3pay	2_POSTBOX
+alberta,90,60,0	duplicate(MailBox)	Mailbox#alb	2_POSTBOX
+alberta,30,240,0	duplicate(MailBox)	Mailbox#2alb	2_POSTBOX
+alberta,108,59,0	duplicate(MailBox)	Mailbox#3alb	2_POSTBOX
+aldebaran,135,121,0	duplicate(MailBox)	Mailbox#alde	2_POSTBOX
+yuno,148,187,0	duplicate(MailBox)	Mailbox#yuno	2_POSTBOX
+yuno,332,108,0	duplicate(MailBox)	Mailbox#2yuno	2_POSTBOX
+lighthalzen,164,85,0	duplicate(MailBox)	Mailbox#lht	2_POSTBOX
+lighthalzen,196,320,0	duplicate(MailBox)	Mailbox#2lht	2_POSTBOX
+einbroch,231,215,0	duplicate(MailBox)	Mailbox#ein	2_POSTBOX
+einbroch,77,202,0	duplicate(MailBox)	Mailbox#2ein	2_POSTBOX
+einbech,182,124,0	duplicate(MailBox)	Mailbox#3ein	2_POSTBOX
+comodo,200,150,0	duplicate(MailBox)	Mailbox#cmd	2_POSTBOX
+umbala,104,155,0	duplicate(MailBox)	Mailbox#um	2_POSTBOX
+amatsu,102,146,0	duplicate(MailBox)	Mailbox#ama	2_POSTBOX
+gonryun,152,117,0	duplicate(MailBox)	Mailbox#gon	2_POSTBOX
+ayothaya,200,256,0	duplicate(MailBox)	Mailbox#ayo	2_POSTBOX
+louyang,204,100,0	duplicate(MailBox)	Mailbox#lou	2_POSTBOX
+hugel,86,168,0	duplicate(MailBox)	Mailbox#hu	HIDDEN_NPC
+rachel,122,146,0	duplicate(MailBox)	Post Box#ra	2_POSTBOX
+veins,218,123,0	duplicate(MailBox)	Post Box#ve	2_POSTBOX
+dewata,203,192,0	duplicate(MailBox)	Post Box#dew	2_POSTBOX
+ecl_in01,55,65,0	duplicate(MailBox)	Post Box#ecl	2_POSTBOX
+izlude,137,126,0	duplicate(MailBox)	Post Box#izl	2_POSTBOX
+
+
+//¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//	Healer
+//________________________________________________________
+alberta,122,59,4	duplicate(Healer)	Healer#alb	4_F_IU
+aldebaran,135,118,6	duplicate(Healer)	Healer#alde	4_F_IU
+amatsu,230,235,4	duplicate(Healer)	Healer#ama	4_F_IU
+ayothaya,217,265,4	duplicate(Healer)	Healer#ayo	4_F_IU
+comodo,184,158,6	duplicate(Healer)	Healer#com	4_F_IU
+einbech,57,36,6	duplicate(Healer)	Healer#einbe	4_F_IU
+einbroch,57,202,6	duplicate(Healer)	Healer#einbr	4_F_IU
+geffen,115,72,6	duplicate(Healer)	Healer#gef	4_F_IU
+gonryun,156,122,6	duplicate(Healer)	Healer#gon	4_F_IU
+hugel,89,150,6	duplicate(Healer)	Healer#hug	4_F_IU
+izlude,132,123,4	duplicate(Healer)	Healer#izl	4_F_IU
+jawaii,250,139,4	duplicate(Healer)	Healer#jaw	4_F_IU
+lighthalzen,152,100,6	duplicate(Healer)	Healer#lhz	4_F_IU
+louyang,226,103,4	duplicate(Healer)	Healer#lou	4_F_IU
+manuk,272,144,6	duplicate(Healer)	Healer#man	4_F_IU
+mid_camp,203,289,6	duplicate(Healer)	Healer#mid	4_F_IU
+moc_ruins,72,164,4	duplicate(Healer)	Healer#moc	4_F_IU
+morocc,153,97,6	duplicate(Healer)	Healer#mor	4_F_IU
+moscovia,220,191,4	duplicate(Healer)	Healer#mos	4_F_IU
+niflheim,212,182,5	duplicate(Healer)	Healer#nif	4_F_IU
+payon,179,106,4	duplicate(Healer)	Healer#pay	4_F_IU
+prontera,161,200,1	duplicate(Healer)	Healer#prt	4_F_IU
+rachel,125,116,6	duplicate(Healer)	Healer#rac	4_F_IU
+splendide,201,153,4	duplicate(Healer)	Healer#spl	4_F_IU
+thor_camp,249,74,4	duplicate(Healer)	Healer#thor	4_F_IU
+umbala,105,148,3	duplicate(Healer)	Healer#umb	4_F_IU
+veins,217,121,4	duplicate(Healer)	Healer#ve	4_F_IU
+xmas,143,136,4	duplicate(Healer)	Healer#xmas	4_F_IU
+yuno,164,45,4	duplicate(Healer)	Healer#yuno	4_F_IU
+//--Renewal
+brasilis,195,221,4	duplicate(Healer)	Healer#bra	4_F_IU
+dewata,195,192,4	duplicate(Healer)	Healer#dew	4_F_IU
+dicastes01,201,194,4	duplicate(Healer)	Healer#dic	4_F_IU
+ecl_in01,45,60,4	duplicate(Healer)	Healer#ecl	4_F_IU
+malangdo,132,114,6	duplicate(Healer)	Healer#mal	4_F_IU
+malaya,205,205,6	duplicate(Healer)	Healer#ma	4_F_IU
+mora,55,152,4	duplicate(Healer)	Healer#mora	4_F_IU
