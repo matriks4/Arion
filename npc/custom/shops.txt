@@ -33,8 +33,6 @@ OnInit:
 	sellitem Yellow_Gemstone,-1;
 }
 
-prt_in,126,76,6	duplicate(Arion Trader)	Arion Trader#inprt1	4_F_GELKA
-
 prontera,128,214,5	trader	Alchemist Shop#prt1	4_GEFFEN_09,{
 OnInit:
     sellitem Slim_Potion_Create_Book,-1;
