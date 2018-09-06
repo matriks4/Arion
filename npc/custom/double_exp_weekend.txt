@@ -1,0 +1,83 @@
+//===== Hercules Script ======================================
+//= Floating Server Rates
+//===== By: ==================================================
+//= Lupus
+//===== Current Version: =====================================
+//= 1.0
+//===== Description: =========================================
+//= It's a simply example of setbattleflag
+//= This script will change your server rates from 1x to 1.5x every 6 hours
+//= Note: It doesn't affect Card granted drops, MVP & Treasure Chests drops ^_-
+//=       It also doesn't affect CARD drops, because they are just 0.01%
+//===== Additional Comments: =================================
+//= You can make incredible scripts with 'setbattleflag'!
+//============================================================
+
+-	script	FloatingRates	-1,{
+OnInit:
+//add any other HOURS
+OnHour00:
+OnHour04:
+OnHour08:
+OnHour12:
+OnHour16:
+OnHour20:
+
+//-------------------
+
+	set $@brate,1200;
+	set $@jrate,1200;
+	set $@drate,500;
+	set .brate,12;
+	set .jrate,12;
+	set .drate,5;
+	//Base exp
+	setbattleflag("base_exp_rate",$@brate);
+	//Job exp
+	setbattleflag("job_exp_rate",$@jrate);
+	//Drops
+	setbattleflag("item_rate_common",$@drate);
+	setbattleflag("item_rate_heal",$@drate);
+	setbattleflag("item_rate_use",$@drate);
+	setbattleflag("item_rate_equip",$@drate);
+	//we don't change card drops rate, because these values won't change them anyway
+	atcommand "@reloadmobdb";
+	
+	announce "Current Lucky Hours rates are: "+(.brate)+"x"+(.jrate)+"x"+(.drate)+"x",bc_all,0xFF6060;
+	end;
+
+}
+
+-	script	FloatingRates2	-1,{
+OnInit:
+//add any other HOURS
+OnHour01:
+OnHour05:
+OnHour09:
+OnHour13:
+OnHour17:
+OnHour21:
+
+//-------------------
+	set $@brate,800;
+	set $@jrate,800;
+	set $@drate,300;
+	set .brate,8;
+	set .jrate,8;
+	set .drate,3;
+	//Base exp
+	setbattleflag("base_exp_rate",$@brate);
+	//Job exp
+	setbattleflag("job_exp_rate",$@jrate);
+	//Drops
+	setbattleflag("item_rate_common",$@drate);
+	setbattleflag("item_rate_heal",$@drate);
+	setbattleflag("item_rate_use",$@drate);
+	setbattleflag("item_rate_equip",$@drate);
+//we don't change card drops rate, because these values won't change them anyway
+	atcommand "@reloadmobdb";
+ 
+	announce "Server Rates Are Back To Normal: "+(.brate)+"x"+(.jrate)+"x"+(.drate)+"x",bc_all,0xFF6060;
+	end;
+ 
+}
